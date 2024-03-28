@@ -741,3 +741,34 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+
+
+.arrow-icon {
+  position: absolute;
+  top:130px;
+  right:30px;
+  transform: translateY(-50%);
+  width: 110px;
+  height: 120px;
+  background-image: url('./Assets/arrow-icon.png');
+  background-size: cover;
+  cursor: pointer;
+  display: none;
+}
+
+/* Media query for mobile devices */
+@media screen and (max-width: 767px) {
+  .arrow-icon {
+    display: block;
+    animation: arrowAnimation 1.5s infinite alternate;
+  }
+}
+
+@keyframes arrowAnimation {
+  0% {
+    transform: translateY(-50%) rotate(0deg);
+  }
+  100% {
+    transform: translateY(-30%) rotate(0deg);
+  }
+}

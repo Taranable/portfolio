@@ -47,6 +47,7 @@ function About() {
 
         <Github />
       </Container>
+      <div className="arrow-icon"></div>
     </Container>
   );
 }

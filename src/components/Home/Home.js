@@ -1,3 +1,4 @@
+
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.svg";
@@ -40,6 +41,9 @@ function Home() {
             </Col>
           </Row>
         </Container>
+        
+        {/* Arrow icon pointing towards hamburger menu */}
+        <div className="arrow-icon"></div>
       </Container>
       <Home2 />
     </section>

@@ -49,6 +49,7 @@ function ResumeNew() {
           </Button>
         </Row>
       </Container>
+      <div className="arrow-icon"></div>
     </div>
   );
 }
